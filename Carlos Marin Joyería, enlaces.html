@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Carlos Marin Joyería</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#141414; --bg2:#262626; --card:#ffffff; --ink:#111111; --muted:#b9b9b9;
+  --gold:#c9a24a; --gold2:#e6c878; --soft:#f3efe6;
+  color-scheme:dark;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;min-height:100%;background:radial-gradient(120% 70% at 50% 0%,var(--bg2),var(--bg) 65%);color:#fff;font-family:'Jost',system-ui,sans-serif;display:flex;justify-content:center}
+main{width:100%;max-width:520px;padding:36px 18px 28px;text-align:center}
+.logo{width:116px;height:116px;margin:0 auto 16px;border-radius:50%;background:#0b0b0b;border:2px solid var(--gold);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 0 0 6px rgba(201,162,74,.15)}
+.logo b{font:400 38px/1 'Pinyon Script',cursive;color:#fff}
+.logo i{font-style:normal;font-size:9px;letter-spacing:.35em;color:var(--gold2);margin-top:4px;padding-left:.35em}
+h1{margin:0;font:400 40px/1.1 'Pinyon Script',cursive}
+.tag{margin:8px 0 20px;color:var(--muted);font-size:15px}
+.social{display:flex;justify-content:center;gap:12px;margin-bottom:26px}
+.social a{width:46px;height:46px;border-radius:50%;background:var(--gold);color:#111;display:grid;place-items:center;transition:transform .15s,background .15s}
+.social a:hover{transform:translateY(-2px);background:var(--gold2)}
+.social svg{width:22px;height:22px}
+.item{margin:0 0 14px}
+.btn,summary{display:flex;align-items:center;gap:14px;width:100%;min-height:64px;padding:12px 18px;background:var(--card);color:var(--ink);border-radius:20px;text-decoration:none;font-size:17px;font-weight:500;cursor:pointer;list-style:none;border:0;text-align:left;transition:transform .15s,box-shadow .15s}
+.btn:hover,summary:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.4)}
+summary::-webkit-details-marker{display:none}
+.ic{flex:none;width:42px;height:42px;border-radius:12px;background:var(--soft);display:grid;place-items:center;color:#8a6a1f}
+.ic svg{width:24px;height:24px}
+.lbl{flex:1;text-align:center;padding-right:42px}
+.chev{margin-left:auto;transition:transform .2s;width:18px;height:18px;flex:none;position:absolute}
+details{position:relative}
+details[open] summary{border-radius:20px 20px 0 0}
+details[open] .chev{transform:rotate(180deg)}
+.sub{background:#1f1f1f;border:1px solid rgba(201,162,74,.5);border-top:0;border-radius:0 0 20px 20px;padding:10px;display:grid;gap:8px}
+.sub a{display:block;padding:13px 14px;border-radius:14px;background:var(--bg2);color:#fff;text-decoration:none;font-size:16px}
+.sub a:hover{background:var(--gold);color:#111}
+.sub small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.sub a:hover small{color:#222}
+.addr{color:var(--muted);font-size:13px;margin:-6px 0 14px}
+footer{margin-top:26px;color:var(--muted);font-size:13px}
+footer span{color:var(--gold2)}
+</style>
+</head>
+<body>
+<main>
+  <div class="logo"><b>Carlos Marin</b><i>JOYERIA</i></div>
+  <h1>Carlos Marin Joyería</h1>
+  <p class="tag">Relojes y joyas en oro 18K, plata y esmeraldas colombianas</p>
+
+  <nav class="social" aria-label="Redes sociales">
+    <a href="https://www.instagram.com/carlosmarinjoyeria/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg></a>
+    <a href="https://www.facebook.com/CarlosMarinJoyeria" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 22v-8h3l.5-4H14V7.5c0-1 .4-1.5 1.6-1.5h1.9V3h-3C12 3 10 4.8 10 7.5V10H7v4h3v8z"/></svg></a>
+    <a href="https://www.tiktok.com/@carlosmarinjoyeria22" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.8 5.8 0 1 0 5 5.7V9.3a7.3 7.3 0 0 0 4.3 1.4V7.6a4.3 4.3 0 0 1-3.3-1.8z"/></svg></a>
+    <a href="https://www.youtube.com/@carlosmarinjoyeria2222" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#c9a24a"/></svg></a>
+  </nav>
+
+  <div class="item">
+    <a class="btn" href="https://www.carlosmarinjoyeria.com/" target="_blank" rel="noopener">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h10.2L20 7H6"/><circle cx="9" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/></svg></span>
+      <span class="lbl">Compra en nuestra página web</span>
+    </a>
+  </div>
+
+  <div class="item">
+    <details>
+      <summary>
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg></span>
+        <span class="lbl">Asesoría personalizada por WhatsApp</span>
+        <svg class="chev" style="right:18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="sub">
+        <a href="https://wa.me/573175476364?text=Hola%2C%20quiero%20asesor%C3%ADa%20personalizada" target="_blank" rel="noopener">WhatsApp 1<small>+57 317 547 6364</small></a>
+        <a href="https://wa.me/573168658633?text=Hola%2C%20quiero%20asesor%C3%ADa%20personalizada" target="_blank" rel="noopener">WhatsApp 2<small>+57 316 865 8633</small></a>
+      </div>
+    </details>
+  </div>
+
+  <div class="item">
+    <details>
+      <summary>
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></span>
+        <span class="lbl">Conoce nuestros catálogos</span>
+        <svg class="chev" style="right:18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="sub">
+        <a href="https://www.canva.com/design/DAGgsjeSRW0/HjW9Ad0_xAD3c81KTVNvPw/view" target="_blank" rel="noopener">Argollas de matrimonio</a>
+        <a href="https://www.canva.com/design/DAGOJssGVXA/m88XCXwjfCKrlBD-BfDKcw/view" target="_blank" rel="noopener">Anillos de dama en oro 18K</a>
+        <a href="https://www.canva.com/design/DAGPpgqUFco/9XNDuEoBWQqjpW1A6eoRCw/view" target="_blank" rel="noopener">Anillos en oro 18K</a>
+      </div>
+    </details>
+  </div>
+
+  <div class="item">
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Carlos+Marin+Joyeria+Villavicencio" target="_blank" rel="noopener">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+      <span class="lbl">Ubicación y tienda física</span>
+    </a>
+  </div>
+  <p class="addr">Cra 44 # 20-21, barrio El Buque, Villavicencio</p>
+
+  <footer><span>Oro 18K</span> &nbsp;·&nbsp; <span>Esmeraldas colombianas</span> &nbsp;·&nbsp; <span>Relojería suiza</span></footer>
+</main>
+</body>
+</html>
